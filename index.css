@@ -93,6 +93,7 @@ header {
   background-color: rgb(242, 243, 245);
   font-weight: bold;
   color: black;
+  font-size: 10px;
 }
 
 .task-num {
@@ -118,7 +119,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* color: rgb(171, 171, 171); */
+  color: rgb(171, 171, 171);
 }
 
 .task-text {
@@ -167,9 +168,10 @@ header {
   background-color: rgb(252, 54, 55);
 }
 
-.complete .task-description:nth-child(3) {
+.complete .task-description:nth-child(3):hover {
   outline: dashed lightgrey;
   transform: translate(5px) rotate(10deg);
+  cursor: pointer;
 }
 
 .task-empty {
